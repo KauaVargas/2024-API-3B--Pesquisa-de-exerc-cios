@@ -14,3 +14,46 @@
     --cor4: #e5e5e5ff;
     --cor5: #ffffffff;
 }
+body{
+    font-family: var(--fonte-texto);
+    background-color: var(--cor2);
+    color: var(--cor4);
+    height: 100vh;
+}
+header{
+    background-color: var(--cor3);
+    text-align: center;
+}
+h1{
+    font-family: var(--fonte-titulo);
+    font-size: 2.5rem;
+    padding: 1.2rem 0;
+    color: var(--cor1);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+nav a{
+    text-decoration: none;
+    margin: 0 2rem 1rem 0;
+    font-size: 1.5rem;
+}
+nav a:hover{
+    text-decoration: underline;
+    font-size: 1.7rem;
+    color: var(--cor2);
+    transition: 0.5s;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor3);
+    color: var(--cor1);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+}
