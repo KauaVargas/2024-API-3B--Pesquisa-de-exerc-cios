@@ -46,6 +46,19 @@ nav a:hover{
     color: var(--cor2);
     transition: 0.5s;
 }
+
+.caixa-grafico{
+    margin: 3em;
+    border: 3px double var(--cor5);
+    background-color: var(--cor1);
+}
+
+.caixa-grafico__texto{
+    padding: 2em;
+    font-size: 1.3em;
+    text-align: center;
+}
+
 footer{
     display: flex;
     align-items: center;
