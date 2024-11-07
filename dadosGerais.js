@@ -5,11 +5,18 @@ async function vizualizaInfo(){
     const dados = await res.json()
 
     const cursos = Object.keys(dados)
-    const cursoMaisVotado = cursos[0]
+    const exercicioMaisVotado = cursos[0]
     const quantidadeDeVoto = Object.values(dados)[0]
 
-    console.log(cursoMaisVotado)
-    console.log(quantidadeDeVoto)
+    let paragrafo = document.createElement('p')
+
+    paragrafo.classList.add('caixa-grafico__texto')
+
+    paragrafo.innerHTML = ` Nessa pesquisa, buscou-se compreender qual o exercício favorito e mais influente pelos praticantes da musculação. O ${exercicioMaisVotado} foi o exercício mais votado entre todos, com um total de ${quantidadeDeVoto} votos, em uma pesquisa que teve um total de um milhão de participantes.`
+
+    let caixa = document.getElementById('caixa-grafico')
+    caixa. appendChild(paragrafo)
+
 }
 
 vizualizaInfo()
