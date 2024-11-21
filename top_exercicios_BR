@@ -1,14 +1,14 @@
 {
  
-    "Supino": 125000,
-    "Levantamento Terra": 175000,
-    "Agachamento": 200000,
+    "Supino": 250000,
+    "Levantamento Terra": 150000,
+    "Agachamento": 100000,
     "Puxada na Barra Fixa": 150000,
-    "Desenvolvimento Militar": 90000,
-    "Rosca Direta": 80000,
-    "Remada": 120000,
-    "Flexão de Pernas (Leg Curl)": 110000,
-    "Flexão de Braços (Triceps Pushdown)": 85000,
-    "Elevação Lateral": 95000
+    "Desenvolvimento Militar": 50000,
+    "Rosca Direta": 100000,
+    "Remada": 80000,
+    "Flexão de Pernas (Leg Curl)": 20000,
+    "Flexão de Braços (Triceps Pushdown)": 100000,
+    "Elevação Lateral": 100000
 
 }
